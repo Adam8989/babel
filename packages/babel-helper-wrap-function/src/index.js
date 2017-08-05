@@ -1,3 +1,5 @@
+/* @flow */
+
 import type { NodePath } from "babel-traverse";
 import nameFunction from "babel-helper-function-name";
 import template from "babel-template";

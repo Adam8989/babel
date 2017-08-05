@@ -26,7 +26,7 @@ lint:
 	./node_modules/.bin/eslint scripts packages *.js --format=codeframe
 
 flow:
-	./node_modules/.bin/flow check --strip-root
+	./node_modules/.bin/flow check
 
 fix:
 	./node_modules/.bin/eslint scripts packages *.js --format=codeframe --fix

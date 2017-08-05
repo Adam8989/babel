@@ -12,12 +12,7 @@ node_js:
   - '4'
 
 env:
-  global:
-    - PATH=$HOME/.yarn/bin:$PATH
-    - JOB=test
-
-before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 0.28.1
+  - JOB=test
 
 script:
   - 'if [ "$JOB" = "test" ]; then make test-ci; fi'

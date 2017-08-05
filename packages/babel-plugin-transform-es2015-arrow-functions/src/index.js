@@ -1,3 +1,5 @@
+// @flow
+
 import type NodePath from "babel-traverse";
 
 export default function() {
